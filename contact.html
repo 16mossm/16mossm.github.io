@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html>
+<title> testsite</title>
+<head>
+    <script>
+        function FormSubmit(){
+            alert("amogis");
+            var email = document.forms["Form1"]["email"].value;
+            if(email==null || email==""){
+                alert("empty email :(")
+                return false;
+            }
+            var Valid = Check(email);
+            if (Valid == true){
+                alert(":)")
+            }
+            else{
+            alert(":(")
+            return false;
+            }
+            var pwrd1 = document.forms["Form1"]["pword1"].value;
+            var pwrd2 = document.forms["Form1"]["pword2"].value;
+            if(pwrd1 != pwrd2){
+                alert("passowrds godda be the same and stuff innit");
+                return false;
+            }
+        }     
+        
+        function Check(text){
+            var foundAt = 0;
+            var foundDot = 0;
+            for(i=0;i<text.length;i++){
+                if(text[i] == '@'){
+                foundAt = i;
+                }
+                if(text[i] == '.'){
+                fountDot = i;
+                }
+            }
+            alert(fountAt)
+            if(fountAt>0 && (foundDot > foundAt + 3)){
+                alert("good")
+            return true;
+            }
+            return false;
+        }
+        
+        
+    </script>
+</head>
+<body bgColor = "#cccccc">
+    <h1>FeedBack Form </h1>
+    <form action = "#" method="" onsubmit = "return FormSubmit()" name="Form1">
+    <table action = "" method = "">
+        <tr><td><p>username:</td><td><input type = "text" name = "uname"></td></tr>
+        <tr><td><p>password:</td><td><input type = "password" name = "pword1"></td></tr>
+        <tr><td><p>confirm:</td><td><input type ="password" name = "pword2"></td></tr>
+        <tr><td><p>email:</td><td><input type = "text" name = "email"></td></tr>
+        <tr><td><p>feedback:</td><td><textarea rows = 4 cols = 34 style = "resize: none;" ></textarea></td></tr>
+        <tr><td></td><td><input type = "submit" value = "submit"></tr>
+        
+        
+    </table>
+    </form>
+    
+</body>
+</html>
