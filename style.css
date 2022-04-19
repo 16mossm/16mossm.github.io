@@ -13,6 +13,14 @@
   transition: 0.3s;
 }
 
+.topbar {
+  background-color: #1D2D44;
+  overflow: hidden;
+  width: 90%;
+  margin: 0 auto;
+}
+
+
 /* The navigation menu links */
 .sidenav a {
   padding: 6px 8px 6px 16px;
@@ -30,7 +38,7 @@
 /* Style page content */
 #main {
   transition: margin-left .3s; /* If you want a transition effect */
-  padding: 20px;
+  padding: 0px 0px;
 }
     
     
@@ -41,14 +49,43 @@
   right: 25px;
   font-size: 36px;
   margin-left: 50px;
+    font-size: 27px;
 }
 
 /* The button used to open the sidebar */
 .openbtn {
-  font-size: 40px;
+  font-size: 27px;
   cursor: pointer;
   padding: 10px 15px;
   border: none;
+  background-color: #1D2D44;
+  color: #CCC;
 }
+   
+.titlebar {
+  background-color: #3E5C76;
+  overflow: hidden;
+  width: 80%;
+  margin: 0 auto;
+  text-align:center;
+  padding: 0px;
+  
+}
+
+.titlebar h1{
+    color: #BBB;
+    font-size: 24px;
     
-    
+}
+.aligncenter{
+  width: 80% ;
+text-align: center;
+    margin: 0 auto;
+}
+.aligncenter .homepageimage{
+width: 90% ;
+
+}
+.aligncenter img{
+width: 60% ;
+}
