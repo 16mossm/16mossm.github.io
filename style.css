@@ -25,7 +25,7 @@
 .sidenav a {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
-  font-size: 50;
+  font-size: 50px;
   color: #818181;
   display: block;
 }
@@ -48,12 +48,12 @@
   top: 0;
   right: 25px;
   margin-left: 51px;
-    font-size: 54;
+    font-size: 54px;
 }
 
 /* The button used to open the sidebar */
 .openbtn {
-  font-size: 27px;
+  font-size: 54px;
   cursor: pointer;
   padding: 10px 15px;
   border: none;
@@ -73,7 +73,7 @@
 
 .titlebar h1{
     color: #BBB;
-    font-size: 24px;
+    font-size: 48px;
     
 }
 .aligncenter{
