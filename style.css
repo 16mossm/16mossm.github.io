@@ -16,7 +16,7 @@
 .topbar {
   background-color: #1D2D44;
   overflow: hidden;
-  width: 90%;
+  width: 95%;
   margin: 0 auto;
 }
 
@@ -64,7 +64,7 @@
 .titlebar {
   background-color: #3E5C76;
   overflow: hidden;
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
   text-align:center;
   padding: 0px;
@@ -77,14 +77,14 @@
     
 }
 .aligncenter{
-  width: 80% ;
+  width: 85% ;
 text-align: center;
     margin: 0 auto;
 }
 .aligncenter .homepageimage{
-width: 90% ;
+width: 100% ;
 
 }
 .aligncenter img{
-width: 60% ;
+width: 100% ;
 }
