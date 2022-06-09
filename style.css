@@ -26,7 +26,7 @@
 .sidenav a {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
-  font-size: 3em; 
+  font-size: 4em; 
   color: #818181;
   display: block;
 }
@@ -48,8 +48,8 @@
   position: absolute;
   top: 0;
   right: 25px;
-  margin-left: 51px;
-    font-size: 81px;
+  margin-left: 25px;
+    font-size: 200px;
 }
 
 /* The button used to open the sidebar */
