@@ -1,28 +1,72 @@
-<!DOCTYPE html>
-
 <html>
-<title> homepag</title>
-<head>
-</head>
-<body bgColor = "#cccccc">
+    <head>
+        <title>sussy.mp3</title>
+        
+
+        <link href="style.css" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    </head>
+
+
+<style>
+
+
     
-	<h2>ver 39</h2>
-    <h5 align = "center">smol</h5>
+</style>
     
-    <img src = "images/mx5.jpg" width = "399" height = "344" onmouseover="this.src = 'images/mx5.gif';" onmouseout="this.src = 'images/mx5.jpg';"/>
-    <br><br>
-    <a HREF = "model.html">3d model page (no AR)</a>
+    
+<body>
+<!-- its the navbar innit bruv-->
+<div class="sidenav" id="mySidebar" >
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="MarkerAR.html">AR</a>
+  <a href="index.html">home </a>
+  <a href="Information.html">information </a>
+  <a href="#">Contact  </a>
+</div>
+
+    
+    
+    
+    
+<!-- Page content -->
+<div class="main" id="main">
+    <div class="topbar">
+    <button class="openbtn" onclick="openNav()">&#9776;</button>
+    </div>
     <br>
-    <a HREF = "armodel.html">3d model page (with AR)</a>
+    <div class ="titlebar">
+        <h1>Kelham island</h1>
+    </div>
     <br>
-    <br>
-    <br>
-    <a HREF = "armarkerpage.html">AR page with markers</a>
-    
-    <p><font size = "23" color = "#6969dd"> amogus</font></p>
-    <font size = "98" color = "red" face = "Comic Sans MS"> BALLS </font>
-    <p> ppo </p>
-    
-    
+    <div class="aligncenter">
+    <img src="banner.jpg" alt="bannerimage" class="homepageimage">
+        
+    </div>
+    <p> version 1.6
+</div>
 </body>
+    
+    
+    
+    
+    
 </html>
+
+
+
+
+<script>
+    
+//its the navbar innit bruv 
+function openNav() {
+  document.getElementById("mySidebar").style.width = "300px";
+  document.getElementById("main").style.marginLeft = "300px";
+}
+
+/* Set the width of the sidebar to 0 and the left margin of the page content to 0 */
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft = "0";
+}
+</script>
