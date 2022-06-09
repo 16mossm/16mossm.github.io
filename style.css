@@ -92,9 +92,15 @@ width: 100% ;
 }
 .aligncenter p{
   text-align: center;
+   
 }
 
 p {
   font-size: 1.9em; 
   color: #f1f1f2; 
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000; 
 }
