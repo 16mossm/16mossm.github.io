@@ -90,8 +90,11 @@ width: 100% ;
 .aligncenter img{
 width: 100% ;
 }
+.aligncenter p{
+  text-align: center;
+}
 
 p {
-  font-size: 2em; 
+  font-size: 2.5em; 
   color: #f1f1f2; 
 }
