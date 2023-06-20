@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <title>yup</title>
+    <style>
+      #container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+      
+      .textbox {
+        width: 300px;
+        height: 200px;
+        margin: 0 10px;
+        border: 1px solid black;
+        padding: 10px;
+        cursor: pointer;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+      }
+
+      .bigText {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        font-size: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+    </style>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <div id="container">
+      <div class="textbox" onclick="runCode(1)">
+        <p class = "bigText">8000</p>
+      </div>
+      <div class="textbox" onclick="runCode(2)">
+        <p class = "bigText">8000</p>
+      </div>
+    </div>
+  
+    <script>
+      function runCode(textboxId) {
+        if (textboxId === 1) {
+          // Code to run when the first textbox is clicked
+          console.log("First textbox clicked!");
+        } else if (textboxId === 2) {
+          // Code to run when the second textbox is clicked
+          console.log("Second textbox clicked!");
+        }
+      }
+    </script>
+  </body>
+</html>
